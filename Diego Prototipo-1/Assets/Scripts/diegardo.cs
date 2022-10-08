@@ -24,6 +24,10 @@ public class diegardo : MonoBehaviour
     [SerializeField] private Vector3 dimensionesCaja;
     [SerializeField] private bool enSuelo;      
 
+    [SerializeField] private bool Cayendo; 
+    [SerializeField] private bool Subiendo;
+    [SerializeField] private float speedy;
+
     [Header("Dash")]
     [SerializeField] private float velocidadDash;
     [SerializeField] private float tiempoDash;   
@@ -60,8 +64,10 @@ public class diegardo : MonoBehaviour
         hizoDashEnAire = true;
         StartCoroutine(Dash());
     }
-
     }
+
+
+    
 
     private void FixedUpdate() {
 
@@ -71,12 +77,18 @@ public class diegardo : MonoBehaviour
 
       enSuelo = Physics2D.OverlapBox(controladorSuelo.position, dimensionesCaja, 0f, queEsSuelo);  
       animator.SetBool("enSuelo", enSuelo);
+      
       //mover
       if(sePuedeMover){
       Mover(movimientoHorizontal * Time.fixedDeltaTime, salto);
       }
 
       salto = false;
+
+        //velocidad en y
+        speedy = rb2D.velocity.y;
+        animator.SetFloat("Speedy", speedy);
+
     }
 
     private void Mover(float mover, bool saltar){
