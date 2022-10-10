@@ -7,6 +7,7 @@ public class diegardo : MonoBehaviour
 {
     private Rigidbody2D rb2D;
 
+
     [Header("Movimiento")]
 
     private float movimientoHorizontal = 0f;
@@ -28,12 +29,15 @@ public class diegardo : MonoBehaviour
     [SerializeField] private bool Subiendo;
     [SerializeField] private float speedy;
 
+
     [Header("Dash")]
     [SerializeField] private float velocidadDash;
     [SerializeField] private float tiempoDash;   
     private float gravedadInicial;
     private bool puedeHacerDash = true;
-    private bool sePuedeMover = true;      
+    public bool sePuedeMover = true;   
+
+   [SerializeField] private Vector2 velocidadRebote;    
 
     [Header("Animacion")]
     private Animator animator;
@@ -66,9 +70,6 @@ public class diegardo : MonoBehaviour
     }
     }
 
-
-    
-
     private void FixedUpdate() {
 
         if(enSuelo == true){
@@ -82,6 +83,7 @@ public class diegardo : MonoBehaviour
       if(sePuedeMover){
       Mover(movimientoHorizontal * Time.fixedDeltaTime, salto);
       }
+
 
       salto = false;
 
@@ -138,5 +140,9 @@ public class diegardo : MonoBehaviour
     private void OnDrawGizmos(){
         Gizmos.color = Color.red;
         Gizmos.DrawWireCube(controladorSuelo.position, dimensionesCaja);
+    }
+
+    public void Rebote(Vector2 puntoGolpe){
+      rb2D.velocity = new Vector2(-velocidadRebote.x * puntoGolpe.x, velocidadRebote.y);
     }
 }

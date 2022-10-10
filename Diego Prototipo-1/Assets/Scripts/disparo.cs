@@ -12,17 +12,21 @@ public class disparo : MonoBehaviour
     [SerializeField] private GameObject balaArriba;    
      [SerializeField] private GameObject balaDiagonal;  
 
+    
+    [SerializeField] private float firerateDiego;
+    private float nextfireDiego;    
+
     private string balaDireccion;
 
    [Header("Animacion")]
-    private Animator animator2;
+    private Animator animator3;
     
     private Vector2 Direction;
 
 
 
     private void Start(){
-       animator2 = GetComponent<Animator>();   
+       animator3 = GetComponent<Animator>();   
     }
 
 
@@ -44,8 +48,11 @@ public class disparo : MonoBehaviour
       }
 
       if(Input.GetKeyDown(KeyCode.A) ){
+        
+        if(Time.time > nextfireDiego)
+        {    
 
-        animator2.SetTrigger("disparo"); 
+        animator3.SetTrigger("disparo"); 
 
 
         if(balaDireccion == "horizontal"){
@@ -58,15 +65,15 @@ public class disparo : MonoBehaviour
 
         if(balaDireccion == "diagonal"){
         DispararDiagonal();
-        }        
+        }       
 
- 
+
+            nextfireDiego = Time.time + firerateDiego;
+
+        } 
+
        } 
 
-
-
-
-      
                  
     }
 
