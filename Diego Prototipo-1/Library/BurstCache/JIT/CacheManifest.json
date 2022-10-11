@@ -3,7 +3,11 @@
   "Assemblies": [
     {
       "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+<<<<<<< Updated upstream
       "LastWriteTime": "2022-10-07T20:45:12.1917912Z"
+=======
+      "LastWriteTime": "2022-10-10T18:32:01.8111553Z"
+>>>>>>> Stashed changes
     },
     {
       "FullName": "mscorlib, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -23,7 +27,11 @@
     },
     {
       "FullName": "Unity.2D.SpriteShape.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+<<<<<<< Updated upstream
       "LastWriteTime": "2022-10-07T20:45:12.1748387Z"
+=======
+      "LastWriteTime": "2022-10-10T18:32:02.2341225Z"
+>>>>>>> Stashed changes
     },
     {
       "FullName": "UnityEngine.SpriteShapeModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -31,6 +39,7 @@
     },
     {
       "FullName": "Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+<<<<<<< Updated upstream
       "LastWriteTime": "2022-10-07T20:45:12.0331593Z"
     },
     {
@@ -44,6 +53,17 @@
     {
       "FullName": "Unity.2D.Animation.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
       "LastWriteTime": "2022-10-07T20:45:12.2511429Z"
+=======
+      "LastWriteTime": "2022-10-10T18:32:02.0101559Z"
+    },
+    {
+      "FullName": "Unity.2D.Common.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2022-10-10T18:32:01.8331572Z"
+    },
+    {
+      "FullName": "Unity.2D.Animation.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2022-10-10T18:32:02.7820366Z"
+>>>>>>> Stashed changes
     },
     {
       "FullName": "UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -85,10 +105,17 @@
       "ModuleHash": "d093a645ad4676e8d8d5412fb2f65a8a",
       "LinkName": "7F9BDFAB3718C423",
       "AssemblyDependencyIndices": [
+<<<<<<< Updated upstream
         10,
         3,
         11,
         7,
+=======
+        9,
+        3,
+        7,
+        10,
+>>>>>>> Stashed changes
         0,
         2,
         4
@@ -100,6 +127,7 @@
       "ModuleHash": "eeb3a4bb0015bfd74dd299eb5708397e",
       "LinkName": "4E9252389FAD9FEE",
       "AssemblyDependencyIndices": [
+<<<<<<< Updated upstream
         10,
         7,
         8,
@@ -109,6 +137,16 @@
         2,
         11,
         9
+=======
+        9,
+        8,
+        3,
+        4,
+        7,
+        0,
+        2,
+        10
+>>>>>>> Stashed changes
       ]
     },
     {
@@ -128,15 +166,23 @@
       "ModuleHash": "d378db564bb793af0cf30d3abb740f33",
       "LinkName": "7D2E04AB7759F565",
       "AssemblyDependencyIndices": [
+<<<<<<< Updated upstream
         10,
+=======
+        9,
+>>>>>>> Stashed changes
         3,
         4,
         7,
         2,
         0,
         8,
+<<<<<<< Updated upstream
         11,
         9
+=======
+        10
+>>>>>>> Stashed changes
       ]
     }
   ]
