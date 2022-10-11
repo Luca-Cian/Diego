@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class disparo : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class disparo : MonoBehaviour
     [SerializeField] private GameObject balaArriba;    
      [SerializeField] private GameObject balaDiagonal;  
 
+   private AudioSource audioSource;
+   [SerializeField] private AudioClip Disparo;     
     
     [SerializeField] private float firerateDiego;
     private float nextfireDiego;    
@@ -27,11 +30,14 @@ public class disparo : MonoBehaviour
 
     private void Start(){
        animator3 = GetComponent<Animator>();   
+       audioSource = GetComponent<AudioSource>();
     }
 
 
     void Update()
     {      
+
+
 
       if(Input.GetKey(KeyCode.UpArrow)){
         balaDireccion = "arriba";
@@ -79,15 +85,16 @@ public class disparo : MonoBehaviour
 
     private void Disparar(){
         Instantiate(bala, controladorDisparo.position, controladorDisparo.rotation);     
-
+        audioSource.PlayOneShot(Disparo);
     }
     private void DispararArriba(){
         Instantiate(balaArriba, controladorDisparo.position, controladorDisparo.rotation);     
-
+        audioSource.PlayOneShot(Disparo);
     }
     private void DispararDiagonal(){
         Instantiate(balaDiagonal, controladorDisparo.position, controladorDisparo.rotation);     
-
+        audioSource.PlayOneShot(Disparo);
     }
+
 
 }

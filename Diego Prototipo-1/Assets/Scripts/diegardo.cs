@@ -46,12 +46,14 @@ public class diegardo : MonoBehaviour
 
     private bool hizoDashEnAire = false;
 
+
+
     private void Start(){
 
        rb2D = GetComponent<Rigidbody2D>();
        animator = GetComponent<Animator>();
        gravedadInicial = rb2D.gravityScale;
-       velocidadDash = 10;
+       velocidadDash = 5;
     }
 
     private void Update() {
@@ -137,10 +139,10 @@ public class diegardo : MonoBehaviour
         }
     }   
 
-    private void OnDrawGizmos(){
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireCube(controladorSuelo.position, dimensionesCaja);
-    }
+   // private void OnDrawGizmos(){
+   //     Gizmos.color = Color.yellow;
+   //     Gizmos.DrawWireCube(controladorSuelo.position, dimensionesCaja);
+   // }
 
     public void Rebote(Vector2 puntoGolpe){
       rb2D.velocity = new Vector2(-velocidadRebote.x * puntoGolpe.x, velocidadRebote.y);
