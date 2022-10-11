@@ -1347,6 +1347,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2041979828338054628, guid: e5a83c74fa947674fb491a76e47eb7a0, type: 3}
+      propertyPath: "da\xF1o"
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2041979828338054628, guid: e5a83c74fa947674fb491a76e47eb7a0, type: 3}
       propertyPath: jugador
       value: 
       objectReference: {fileID: 1277738817}
@@ -3046,6 +3050,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2041979828338054627, guid: e5a83c74fa947674fb491a76e47eb7a0, type: 3}
       propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2041979828338054628, guid: e5a83c74fa947674fb491a76e47eb7a0, type: 3}
+      propertyPath: "da\xF1o"
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2041979828338054628, guid: e5a83c74fa947674fb491a76e47eb7a0, type: 3}
