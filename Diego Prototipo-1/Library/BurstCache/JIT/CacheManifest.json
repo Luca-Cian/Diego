@@ -4,7 +4,11 @@
     {
       "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "LastWriteTime": "2022-10-07T20:45:12.1917912Z"
+=======
+      "LastWriteTime": "2022-10-10T18:32:01.8111553Z"
+>>>>>>> Stashed changes
 =======
       "LastWriteTime": "2022-10-10T18:32:01.8111553Z"
 >>>>>>> Stashed changes
@@ -28,7 +32,11 @@
     {
       "FullName": "Unity.2D.SpriteShape.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "LastWriteTime": "2022-10-07T20:45:12.1748387Z"
+=======
+      "LastWriteTime": "2022-10-10T18:32:02.2341225Z"
+>>>>>>> Stashed changes
 =======
       "LastWriteTime": "2022-10-10T18:32:02.2341225Z"
 >>>>>>> Stashed changes
@@ -39,6 +47,7 @@
     },
     {
       "FullName": "Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
       "LastWriteTime": "2022-10-07T20:45:12.0331593Z"
     },
@@ -66,6 +75,19 @@
 >>>>>>> Stashed changes
     },
     {
+=======
+      "LastWriteTime": "2022-10-10T18:32:02.0101559Z"
+    },
+    {
+      "FullName": "Unity.2D.Common.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2022-10-10T18:32:01.8331572Z"
+    },
+    {
+      "FullName": "Unity.2D.Animation.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2022-10-10T18:32:02.7820366Z"
+    },
+    {
+>>>>>>> Stashed changes
       "FullName": "UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
       "LastWriteTime": "2022-09-20T01:20:46Z"
     }
@@ -115,6 +137,9 @@
         3,
         7,
         10,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         0,
         2,
@@ -128,6 +153,7 @@
       "LinkName": "4E9252389FAD9FEE",
       "AssemblyDependencyIndices": [
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         10,
         7,
         8,
@@ -138,6 +164,8 @@
         11,
         9
 =======
+=======
+>>>>>>> Stashed changes
         9,
         8,
         3,
@@ -146,6 +174,9 @@
         0,
         2,
         10
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       ]
     },
@@ -170,6 +201,9 @@
         10,
 =======
         9,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         3,
         4,
@@ -178,8 +212,12 @@
         0,
         8,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         11,
         9
+=======
+        10
+>>>>>>> Stashed changes
 =======
         10
 >>>>>>> Stashed changes

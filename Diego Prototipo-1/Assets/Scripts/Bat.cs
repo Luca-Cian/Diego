@@ -7,6 +7,10 @@ public class Bat : MonoBehaviour
     [SerializeField] public Transform jugador;
     [SerializeField] private float distancia;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+    [SerializeField] float posInicialx;
+>>>>>>> Stashed changes
 =======
     [SerializeField] float posInicialx;
 >>>>>>> Stashed changes
@@ -16,12 +20,15 @@ public class Bat : MonoBehaviour
     private SpriteRenderer spriteRenderer;
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     // Start is called before the first frame update
     void Start()
     {   animator = GetComponent<Animator>();
         puntoInicial= transform.position;
         spriteRenderer = GetComponent<SpriteRenderer>();
 =======
+=======
+>>>>>>> Stashed changes
     [SerializeField] private int daño;
 
     private Rigidbody2D rb;
@@ -34,6 +41,9 @@ public class Bat : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
 
         
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     }
 
@@ -41,11 +51,14 @@ public class Bat : MonoBehaviour
     void Update()
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         distancia = Vector2.Distance(transform.position,jugador.position);
         animator.SetFloat("Distancia",distancia);
     }
 
 =======
+=======
+>>>>>>> Stashed changes
         distancia = Vector2.Distance(new Vector2(transform.position.x,0),new Vector2(jugador.position.x,0));
         //distancia = (Mathf.Abs(jugador.position.x)-Mathf.Abs(transform.position.x));
         animator.SetFloat("Distancia",distancia);
@@ -63,6 +76,9 @@ public class Bat : MonoBehaviour
         }
     
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     public void Girar(Vector3 objetivo)
     {
@@ -76,6 +92,11 @@ public class Bat : MonoBehaviour
         }
     }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+
+    
+>>>>>>> Stashed changes
 =======
 
     
